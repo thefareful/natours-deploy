@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://thefareful.github.io/sass-advanced-practice",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "live-server": "^1.2.0"
+  }
+}
